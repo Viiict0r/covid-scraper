@@ -2,7 +2,7 @@
 import cron from 'node-cron';
 import scraper from '../scrapper/CovidScraper';
 
-cron.schedule('*/1 * * * *', () => {
+cron.schedule('*/30 * * * *', () => {
   console.log('Fetching new data...');
   scraper.run();
 });

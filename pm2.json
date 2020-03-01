@@ -3,12 +3,12 @@
     {
       "name": "covid_scraper",
       "script": "node",
-      "args": "node -r sucrase/register src/server.js"
+      "args": "-r sucrase/register src/server.js"
     },
     {
       "name": "covid_scraper_job",
       "script": "node",
-      "args": "node -r sucrase/register src/job/scraper.js"
+      "args": "-r sucrase/register src/job/scraper.js"
     }
   ]
 }
