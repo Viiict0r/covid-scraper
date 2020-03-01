@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "covid_scraper",
+      "script": "node",
+      "args": "node -r sucrase/register src/server.js"
+    }
+  ]
+}
